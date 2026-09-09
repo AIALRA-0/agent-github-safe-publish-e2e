@@ -1,0 +1,10 @@
+name: e2e
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  pass:
+    name: e2e / pass
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo synthetic-e2e-pass
