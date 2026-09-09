@@ -1,1 +1,2 @@
-# Synthetic safe-publication E2E fixture
+# Publishing notes
+After the branch upload, create a Release and attach the local configuration archive.
